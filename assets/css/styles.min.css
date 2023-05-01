@@ -204,9 +204,17 @@ header .left-wrapper-header .content {
 }
 
 .text-box {
+  color: #fff;
   background: #242928;
   border: 1px solid #fff;
   border-radius: 25px;
+}
+
+.text-box:focus {
+  color: #fff;
+  background: #242928;
+  border: 1px solid #3f702f;
+  box-shadow: 0px 4px 22px rgba(73, 135, 53, 0.44);
 }
 
 .img-hand-phone {
