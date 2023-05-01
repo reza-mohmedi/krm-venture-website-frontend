@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  overflow: visible;
+  background: radial-gradient(50% 50% at 50% 50%, #131517 0, #131517 100%);
+}
+
+#mainNav {
+  background: #242928;
+  opacity: 0.8;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+#mainNav .navbar-brand .img-logo-color {
+  height: 50px;
+}
+
+#mainNav .navbar-brand .brand-name {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainNav .navbar-brand .brand-name .title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+#mainNav .navbar-brand .brand-name .describe {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #929292;
+}
+
+.navbar-nav .nav-item .active,
+.navbar-nav .nav-item a {
+  color: #fff;
+}
+
+#mainNav.nav-sharpen {
+  background: #242928;
+  opacity: 0.6;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+header {
+  margin-top: 200px;
+}
+
+header .col-md-6 {
+  position: relative;
+}
+
+header .left-wrapper-header {
+  padding: 32px;
+  color: #fff;
+  background: #21252771;
+  border-radius: 40px;
+}
+
+header .left-wrapper-header .describe {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94fc7d;
+}
+
+header .left-wrapper-header .title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header .left-wrapper-header .content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #888;
+}
+
+.krm-card .card-body h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.krm-card .card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #888;
+}
+
+.krm-card {
+  background: #21252771;
+  border-radius: 40px;
+  height: 100%;
+  padding: 24px;
+}
+
+.krm-card img {
+  width: 70% !important;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  background: linear-gradient(266.52deg, #94fc7d 9.86%, #b3fb68 89.19%);
+  border-radius: 16px;
+}
+
+.dot {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #94fc7d 0,
+    rgba(179, 251, 104, 0) 100%
+  );
+}
+
+.container {
+  max-width: 1300px !important;
+}
+
+.lighter-1 {
+  z-index: -10;
+  position: absolute;
+  width: 510px;
+  height: 510px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #3f702f 0,
+    rgba(54, 78, 47, 0) 100%
+  );
+  mix-blend-mode: lighten;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.lighter-2 {
+  z-index: -10;
+  top: -5%;
+  right: 0;
+  position: absolute;
+  width: 940px;
+  height: 940px;
+  background: radial-gradient(
+    46.89% 46.89% at 50% 50%,
+    #3f702f 0,
+    rgba(54, 78, 47, 0) 100%
+  );
+  mix-blend-mode: difference;
+  filter: blur(2px);
+}
+
+.title-1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  color: #fff;
+}
+
+.describe-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #888;
+}
+
+.contact-us-warraper {
+  color: #fff;
+  background: #21252771;
+  border-radius: 40px;
+}
+
+.text-box {
+  background: #242928;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}
+
+.img-hand-phone {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 65%;
+  border-radius: 25px;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+footer {
+  margin-top: 80px;
+  background: #21252771;
+}
+
+footer * {
+  color: #fff !important;
+}
+
+/* Animation */
+.fade-in-out {
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
